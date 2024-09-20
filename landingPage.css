@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+   
+}
+.firsone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.cta-button {
+    background: #1ec3e4;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0px;
+    
+    
+}
+.cta-button:hover{
+    box-shadow: 5px 5px 5px 5px lightblue;
+    background-color: #333;
+    color: red;
+}
+.firsone h1{
+    color: #ffffff;
+    padding-right: 35rem;
+    text-shadow: 0 0 5px #1eb77c, 0 0 10px #1616ba;
+}
+.aboutOne h1{
+    text-shadow: 0 0 5px #1eb77c, 0 0 10px #1616ba;
+}
+.cta-button::after{
+    cursor: pointer;
+    
+}
+.second{
+    height: 70vh;
+    background-color: #333;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+.about_image{
+    border-radius: 50%;
+    height: 400px;
+}
+.aboutOne{
+    width: 40%;
+    font-size: 20px;
+}
+main {
+    padding: 2rem;
+    background-color: #333;
+}
+h3{
+    text-align: center;
+}
+.features {
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feature {
+    background-color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem 1rem;
+   width: 15%;
+   
+}
+
+#contact {
+    
+    background: #333;
+    padding: 2rem;
+    text-align: center;
+}
+
+#contact form {
+
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    color: #ccc;
+}
+
+#contact input,
+#contact textarea {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background-color: black;
+    color: #ccc;
+}
+
+
+button {
+    background: #007BFF;
+    color: white;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+}
+.footerLast a{
+    color: #ffffff;
+    list-style: none;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .features {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+
